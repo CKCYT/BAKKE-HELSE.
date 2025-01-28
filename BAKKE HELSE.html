@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <h1>BAKKE HELSE</h1>
-    <p>
-    <h3>din helse vårt ansvar</h3>
-    </p>p><h5>ta answar for din gamle far eller mor</h5>
-    <link rel="stylesheet" href="style.css">
-
-<body>
-</body>
-</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send SMS</title>
 </head>
-
+<body>
+    <h1>Send SMS</h1>
+    <form action="sendSMS" method="POST">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <button type="submit">Send SMS</button>
+    </form>
+</body>
 </html>
