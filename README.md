@@ -1,1 +1,0 @@
-BAKKE HELSE
