@@ -5,6 +5,7 @@ body{
 head{
     color : black;
 }
-button{
-    position:absolute 
+#ins{
+top: 1%;
+right: 1%;
 }
